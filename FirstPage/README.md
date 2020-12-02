@@ -46,11 +46,15 @@ So what about the other directories in the project?
 
 bin/ 
     The famous bin/console file lives here (and other, less important executable files). 
+    
 var/ 
     This is where automatically-created files are stored, like cache files (var/cache/) and logs (var/log/). 
+    
 vendor/ 
     Third-party (i.e. “vendor”) libraries live here! These are downloaded via the Composer package manager. 
+    
 public/ 
     This is the document root for your project: you put any publicly accessible files here. 
+    
 
 And when you install new packages, new directories will be created automatically when needed.
